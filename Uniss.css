@@ -1,0 +1,617 @@
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+
+
+  .contenedor {background-color: white;
+
+  border: 2PX solid white;} 
+
+
+  
+
+                                          /* EDITOR TITULO DE UNIVERSE COMPLETE */
+
+
+  #encabezado {
+  background-image: url(TELESCOPIO.jpg);
+  background-size: cover; 
+  border-radius: 25px;
+  background-position-y: 0px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  font-size: 500%;
+  border: 4px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+#encabezado img {
+  max-width: 100px;
+  max-height: 100px;
+  
+}
+
+#encabezado a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+#encabezado:hover {
+  color: #FFEFBA;
+}
+
+
+
+
+                                      /*  EDICION DE ANIMACIONES DE IMAGENES DE MENU*/
+
+
+
+section
+{
+display: flex;
+width: 100%;
+height: 110px;
+object-fit: cover;
+border: 5px solid white;
+border: #FFFFFF 10%;
+
+}
+
+section a{ 
+width: 300px;
+height: 100px;
+object-fit: cover;
+opacity: .8;
+transition: .5s ease;
+object-fit: cover;
+border: #FFFFFF 10%;
+background-size: cover;
+}
+
+section a:hover {
+
+cursor:pointer;
+width: 400px;
+opacity: 1;
+filter: contrast(120%);
+
+}
+
+
+
+
+
+
+  
+                                                         /* ANUNCIO NUMERO 1  */
+
+  
+ 
+
+  #ANUNCIO {
+    background-color: black;
+    position: relative;
+    height: 1300px;
+    width: 20%;
+    float: left;
+  }
+  
+/* AD1  */
+
+
+  #cuadro-blanco-ad1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 25%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  
+  #cuadro-blanco-ad1 img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+  }
+
+
+
+/* AD1/2  */
+
+
+  #cuadro-blanco-ad1-2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 25%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  
+  #cuadro-blanco-ad1-2 img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+                                                       /* LINEA DE CONTENIDO  */
+
+
+
+#CONTENIDO {
+  float: left;
+  height: 800px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#CONTENIDO video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*CUADRO BLANCO PRINCIPAL*/
+
+#cuadro-blanco {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 250px;
+  
+
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+
+
+  
+ 
+
+
+#cuadro-negro {
+  position: absolute;
+  top: 25%;
+ left: 50px;
+  width: 80%;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+                                                           /* LETRAS DISEÑO WELCOME  */
+
+body h1 {
+  margin: 0;
+color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-align: center;
+}
+body a {
+  font-family: 'Teko', sans-serif;
+  color:#DBD4B4;
+  align-self: end;
+  justify-self: center;
+  padding-bottom: 1rem;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #d9a7c7;
+  }
+  to {
+    text-shadow: 0 0 30px#948E99, 0 0 10px#DBD5A4;
+  }
+}
+
+
+
+
+
+
+                                               /*EDICION DE CARTAS CIENCIA Y ASTRONO*/
+
+
+
+.card {
+  position: absolute;
+  width: 190px;
+  height: 254px;
+  top: 100%;
+  left: 30%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.card-inner {
+  text-align: center;
+  font-family: arial black;
+  color: #f64f59;
+  width: inherit;
+  height: inherit;
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#FFFFFF, #FFEFBA);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+
+.circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+  animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(10px);
+  }
+}
+
+
+
+
+
+/*CARTA 2*/ 
+
+
+
+
+.card2 {
+  position: absolute;
+  width: 190px;
+  height: 254px;
+  top: 100%;
+  left: 55%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.card-inner2 {
+  text-align: center;
+  font-family: arial black;
+  color: #f64f59;
+  width: inherit;
+  height: inherit;
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.card2:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+
+.circle2 {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#FFFFFF, #FFEFBA);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle2:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+
+.circle2:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+  animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(10px);
+  }
+}
+
+
+
+
+
+
+
+                                                             /*INTRODUCCION*/
+
+
+
+#cuadro-introduccion {
+  color: white;
+  
+  display: flex;
+  width: 60%;
+  height: 500px;
+  background-color: black;
+  border-radius: 0px;
+  float: left;
+}
+
+.registrarte {
+  color: #B993D6; /* Cambia el color a tu preferencia */
+}
+
+
+
+
+
+                                                      /*  EDICION ANUNCIO 2 */
+
+#ANUNCIO2 {
+  background-color: black;
+  position: relative;
+  height: 1300px;
+  width: 20%;
+  float: right;
+}
+/* AD2  */
+
+#cuadro-blanco-ad2 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 25%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#cuadro-blanco-ad2 img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+
+
+
+                                                           /* AD2/2  */
+
+
+#cuadro-blanco-ad2-2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 25%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+#cuadro-blanco-ad2-2 img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+                                                            /*PIE DE CREDITOS*/
+
+.PIE
+
+{ background-color: #434343;  
+  height: 70px;
+  width: 100%;
+clear: both;
+color:#FFEFBA;
+
+}
+
+.COPYR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+
+                                                             /* ENLACES EXTERNOS  */
+
+                                                             
+  .slider {
+    background:black;
+    clear: both;
+    width: 100%;
+    display: flex;
+    height: 90px;
+    overflow: hidden;
+    margin: auto;
+    align-items: center;
+  
+  }
+  
+  .slider .slide-track {
+    display: flex;
+    animation: scroll 35s linear infinite;
+    width: calc(240px * 10);
+  }
+  
+  .slider .slide {
+    display: flex;
+  }
+  
+  .slider .slide img {
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-240px * 5));
+    }
+  }
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
